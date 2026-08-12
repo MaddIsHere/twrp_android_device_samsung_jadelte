@@ -23,15 +23,15 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT := cortex-a53
-TARGET_OTA_ASSERT_DEVICE := jadeltechn
+TARGET_OTA_ASSERT_DEVICE := jadelte
 
-TARGET_PREBUILT_KERNEL := device/samsung/jadeltechn/kernel
-TARGET_PREBUILT_DTB := device/samsung/jadeltechn/dt.img
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/jadeltechn/mkbootimg.mk
+TARGET_PREBUILT_KERNEL := device/samsung/jadelte/kernel
+TARGET_PREBUILT_DTB := device/samsung/jadelte/dt.img
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/jadelte/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04f88000 --tags_offset 0x03f88000 # --dt device/samsung/jadeltechn/dtb
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04f88000 --tags_offset 0x03f88000 # --dt device/samsung/jadelte/dtb
 
 #Partition Size (Hexadecimal, base 16)
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 0x001800000
