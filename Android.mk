@@ -26,7 +26,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_jadelte.mk
 
-ifneq ($(filter j7maxlte,$(TARGET_DEVICE)),)
+ifneq ($(filter jadelte,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 

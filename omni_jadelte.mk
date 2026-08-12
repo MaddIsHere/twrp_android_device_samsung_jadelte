@@ -35,4 +35,4 @@ PRODUCT_MODEL := SM-C710F
 PRODUCT_MANUFACTURER := SAMSUNG
 
 PRODUCT_COPY_FILES += \
-    device/samsung/jadeltechn/dt.img:dt.img
+    device/samsung/jadelte/dt.img:dt.img
