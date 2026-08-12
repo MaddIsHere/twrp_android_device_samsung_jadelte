@@ -27,7 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := jadelte
 
 TARGET_PREBUILT_KERNEL := device/samsung/jadelte/kernel
 TARGET_PREBUILT_DTB := device/samsung/jadelte/dt.img
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/jadelte/mkbootimg.mk
+# BOARD_CUSTOM_BOOTIMG_MK := device/samsung/jadelte/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
