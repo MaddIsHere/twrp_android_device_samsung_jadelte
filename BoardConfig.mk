@@ -74,6 +74,9 @@ TW_MTP_DEVICE := "/dev/mtp_usb"
 #color correction
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 
+#compression
+LZMA_RAMDISK_TARGETS := recovery
+
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true
 #TARGET_USES_LOGD := true
