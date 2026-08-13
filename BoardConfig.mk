@@ -70,12 +70,18 @@ TW_IGNORE_MISC_WIPE_DATA := true
 TW_CRYPTO_USE_SYSTEM_VOLD := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MTP_DEVICE := "/dev/mtp_usb"
+#test
+TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_NANO := true
+TW_EXCLUDE_BASH := true
 
 #color correction
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 
 #compression
 LZMA_RAMDISK_TARGETS := recovery
+BOARD_RAMDISK_USE_LZMA := true
 
 # Debug flags
 #TWRP_INCLUDE_LOGCAT := true
